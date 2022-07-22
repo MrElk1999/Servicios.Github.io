@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Diseño del menú*/
+.contenedor_parrafo {
+    border: 15px solid;
+    border-bottom-color: lightblue;
+    border-top-color: rgb(31, 128, 160);
+    border-right-color: rgb(106, 212, 97);
+    border-left-color: rgb(106, 212, 97);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.introducción {
+    background: lightblue;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4%;
+    font-size: 26px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.titulo_1 {
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background: none;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.logos {
+    padding-top: 5px;
+}
+
+.logos2 {
+    float: right;
+    padding-top: 5px;
+}
+
+.contenedor_parrafo {
+    padding-bottom: 50px;
+    font-style: italic;
+}
+
+#titulo_1 {
+    background: rgb(192, 128, 128);
+    text-align: center;
+}
+
+nav ul {
+    background-color: #757575;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+
+.informacion {
+    width: 80%;
+    border-right: 3px solid black;
+}
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+h4 {
+    text-align: center;
+    background-color: rgb(19, 170, 107);
+    color: white;
+    padding: 20px;
+}
+/*configurando el footer*/
+.Ppagina {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(24, 24, 22);
+
+}
+
+.elemento {
+    margin: 50px;
+    text-align: center;
+    width: 30%;
+}
+
+.Ppagina {
+    color: #fff
+}
+
+.elemento h3,h4,h5 {
+    font-size: 30px;
+}
+.elemento img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: contain;
+
+}
+.boton {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 80px;
+    background: #f1bb26;
+    color: #FFF;
+}
+
+.boton:hover {
+    background: #81817f;
+}
+#Bloque {
+    font-size: 30px;
+}
+#Redes{
+    font-size: 50px;
+    
+}
